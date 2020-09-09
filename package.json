@@ -1,0 +1,23 @@
+{
+  "name": "a1-01-1-intro",
+  "version": "1.0.0",
+  "description": "Introduction",
+  "main": "index.js",
+  "scripts": {
+    "http-server": "http-server",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoonyatech/A1-01-1-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoonyatech/A1-01-1-intro/issues"
+  },
+  "homepage": "https://github.com/shoonyatech/A1-01-1-intro#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

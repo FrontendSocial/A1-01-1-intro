@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Introduction</title>
+    <style>
+        #container {
+            background: blue;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+  </head>
+  <body>
+        <div id="container">
+            Content
+        </div>
+        <script>
+            const container = document.getElementById('container');
+            console.log(container.addEventListener)
+            container.addEventListener(
+                'click',
+                () => {
+                    container.style.background = 'red';
+                }
+            );
+        </script>
+  </body>
+</html>
