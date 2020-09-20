@@ -1,7 +1,6 @@
-# A1-01-1-intro
-Introduction
+# Angular Pre requisites Part 1
 
-# Steps to Run locally
+## Steps to Run locally
 
 1. npm install
 2. npm start
